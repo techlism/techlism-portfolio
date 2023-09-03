@@ -27,7 +27,7 @@ const AboutSection=()=>{
         <div className={styling.AboutSectionWrapper}>
             <div className={styling.AboutSection}>
                 <div style={{display:'flex'}}>
-                    <img src={helloImgLocation} alt="hello cartoon" className={styling.sphereImage}/>                
+                    <img src={helloImgLocation} alt="hello cartoon" className={styling.sphereImage} loading='lazy'/>                
                     <h1 className={styling.title}>Hi, I'm Kundan</h1>
                 </div>                
                 <p>
@@ -37,7 +37,7 @@ const AboutSection=()=>{
             
             <div className={styling.SkillsSection}>
             <div style={{display:'flex',marginLeft:'10px',marginBottom:'20px'}}>
-                    <img src={skillImgLocation} alt="skill glow" className={styling.sphereImage}/>                
+                    <img src={skillImgLocation} alt="skill glow" className={styling.sphereImage} loading='lazy'/>                
                     <h1 className={styling.title}>Skill Highlights</h1>
             </div> 
             <div className={styling.skillIcons}>

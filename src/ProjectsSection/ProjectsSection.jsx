@@ -57,7 +57,7 @@ const ProjectSection = () => {
     return (
         <div className={styling.ProjectSectionMain}>
             <div className={styling.heading}>
-                <img src={projectLogoLocation} alt="projects logo"/>
+                <img src={projectLogoLocation} alt="projects logo" loading='lazy'/>
                 <h1>Some of my Projects</h1>
             </div>
             <div className={styling.ProjectSection}>
