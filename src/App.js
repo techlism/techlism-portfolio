@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.Module.css';
+import Navbar from './Components/Navbar/Navbar.jsx';
+import AboutSection from './AboutSection/AboutSection';
+import ProjectSection from './ProjectsSection/ProjectsSection';
+import { useEffect } from 'react';
+import ContactSection from './ContactSection/ContactSection';
+import Footer from './Footer/Footer';
 function App() {
+  useEffect(() => {
+    // Function to handle smooth scrolling
+    const handleSmoothScroll = (event) => {
+      event.preventDefault();
+      const targetId = event.target.getAttribute('href').substring(1); // Remove '#' from href
+      const targetElement = document.getElementById(targetId);
+      if (targetElement) {
+        window.scrollTo({
+          top: targetElement.offsetTop,
+          behavior: 'smooth',
+        });
+      }
+    };
+
+    // Attach smooth scroll behavior to all links with class 'smooth-scroll'
+    const smoothScrollLinks = document.querySelectorAll('.smooth-scroll');
+    smoothScrollLinks.forEach((link) => {
+      link.addEventListener('click', handleSmoothScroll);
+    });
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <section id="about">
+        <AboutSection />
+      </section>
+      <section id="projects">
+        <ProjectSection />
+      </section>
+      <section id="contact">
+        <ContactSection />
+      </section>
+      <Footer/>
     </div>
   );
 }
 
 export default App;
+

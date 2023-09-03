@@ -1,0 +1,83 @@
+.ProjectSectionMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 45px; 
+    background: linear-gradient(135deg, rgba(3, 91, 255, 0.455), rgba(0, 2, 10, 0.307));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ea40",endColorstr="#e44071",GradientType=1);
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 8px;
+    max-width: 85vw;
+    margin-left: 7.5vw;
+    margin-right:7.5vw; 
+    margin-bottom: 35px;
+}
+.ProjectSection{
+    /* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+}
+.heading{
+    display: flex;
+    margin: 15px;
+}
+.heading > img {
+    max-height: 70px;
+    max-width: 70px;
+    margin-right: 10px;
+}
+.heading > h1 {
+    color: #ffe600;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+/* For screens up to 450px wide */
+@media only screen and (max-width: 450px) {
+    .ProjectSection {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        flex-wrap: wrap;
+        /* grid-template-columns: auto; Reset grid layout for smaller screens */
+    }
+    .heading{
+        margin: 5px;
+    }
+    .heading > h1{
+        font-size: 1.6rem;
+    }
+    .heading > img {
+        max-height: 37px;
+        max-width: 37px;
+        margin-right: 10px;
+    }
+}
+
+/* For screens between 450px and 1050px wide */
+@media only screen and (min-width: 451px) and (max-width: 1050px) {
+    .ProjectSection {
+        grid-template-columns: repeat(2, 1.5fr);
+    }
+    /* .heading{
+        margin-right: auto;
+        margin-left: 5vw;
+    } */
+    .heading > h1{
+        font-size: 2.2rem;
+        margin: auto;
+        /* text-align: center; */
+    }
+    .heading > img {
+        max-height: 37px;
+        max-width: 37px;
+        margin-right: 10px;
+    }    
+}

@@ -1,0 +1,10 @@
+.tag{
+    background-color: beige;
+    margin: 5px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+.tag > p {
+    font-size: 0.6rem;
+    padding: 5.5px;
+}

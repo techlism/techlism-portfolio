@@ -1,0 +1,26 @@
+#nav-bar{
+  background: rgba(84, 110, 238, 0.3);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ea40",endColorstr="#e44071",GradientType=1);
+  backdrop-filter: blur( 9.5px );
+  -webkit-backdrop-filter: blur( 9.5px );
+  font-family: 'Space Grotesk', sans-serif;
+  border-radius: 8px;
+  font-weight: 600;
+  padding-left: 45px;
+  /* padding-right: 90px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: sticky;
+
+  width: 85vw;
+  margin-top: 25px;
+  margin-left: 7.5vw;
+  margin-right: 7.5vw;
+
+}
+@media only screen and (max-width: 450px) {
+  #nav-bar{
+      padding:20px;
+  }
+
+}
