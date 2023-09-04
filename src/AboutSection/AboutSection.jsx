@@ -26,7 +26,7 @@ const AboutSection=()=>{
     return(
         <div className={styling.AboutSectionWrapper}>
             <div className={styling.AboutSection}>
-                <div style={{display:'flex'}}>
+                <div style={{display:'flex',alignItems:'center'}}>
                     <img src={helloImgLocation} alt="hello cartoon" className={styling.sphereImage} loading='lazy'/>                
                     <h1 className={styling.title}>Hi, I'm Kundan</h1>
                 </div>                

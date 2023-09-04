@@ -16,7 +16,7 @@ const Navbar = () => {
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          style={{ filter: 'invert(100%)' }}
+          style={{ filter: 'invert(10%)' }}
         >
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@ const Navbar = () => {
               <a
                 className="nav-link smooth-scroll"
                 href="#about"
-                style={{ color: '#E4FBFF' }}
+                style={{ color: '#232323' }}
               >
                 About
               </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
               <a
                 className="nav-link smooth-scroll"
                 href="#projects"
-                style={{ color: '#E4FBFF' }}
+                style={{ color: '#232323' }}
               >
                 Projects
               </a>
@@ -44,7 +44,7 @@ const Navbar = () => {
               <a
                 className="nav-link smooth-scroll"
                 href="#contact"
-                style={{ color: '#E4FBFF' }}
+                style={{ color: '#232323' }}
               >
                 Contact Me
               </a>

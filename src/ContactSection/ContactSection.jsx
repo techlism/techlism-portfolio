@@ -15,7 +15,7 @@ function ContactSection(){
             <div className={styling.socialLinkContainer}>
                 <div className={styling.socialBox}>
                     <img src={emailImgLoc} alt="email logo" loading='lazy' />
-                    <a href="mailto:kundan@techlism.in">Drop a Mail</a>
+                    <a href="mailto:kundan@techlism.in">Email</a>
                 </div>
                 <div className={styling.socialBox}>
                     <img src={githubImgLoc} alt="github logo" loading='lazy' />
@@ -23,7 +23,7 @@ function ContactSection(){
                 </div>
                 <div className={styling.socialBox}>
                     <img src={linkedinImgLoc} alt="linkedin logo" loading='lazy' />
-                    <a href="https://www.linkedin.com/in/kundan-kumar-a54461202/">Connect with me on LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/kundan-kumar-a54461202/">LinkedIn</a>
                 </div>                
             </div>
             <div className={styling.blogBox}>

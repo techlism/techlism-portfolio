@@ -1,1 +1,33 @@
+/* :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+  }
+  
+  
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(
+        to bottom,
+        transparent,
+        rgb(var(--background-end-rgb))
+      )
+      rgb(var(--background-start-rgb));
+
+  } */
+/* Background styles */
+/* body {
+    background-color: #ffffff;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(335.29, 96%, 91%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(330.97, 97%, 89%) 0, transparent 55%);
+} */
+
+/* Background styles */
+body {
+    background-color: #fdfde9;
+    background-image: 
+        radial-gradient(at 47% 33%, hsl(248, 85%, 95%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(337, 100%, 94%) 0, transparent 55%);
+}
 

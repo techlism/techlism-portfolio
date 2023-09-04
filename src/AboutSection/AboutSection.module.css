@@ -7,27 +7,28 @@
     align-content: center;
 }
 .AboutSection{
-    background: linear-gradient(135deg, rgba(3, 91, 255, 0.455), rgba(0, 2, 10, 0.307));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ea40",endColorstr="#e44071",GradientType=1);
-    backdrop-filter: blur( 9.5px );
-    -webkit-backdrop-filter: blur( 9.5px );
+    backdrop-filter: blur(13px) saturate(290%);
+    -webkit-backdrop-filter: blur(16px) saturate(230%);
+    background-color: rgba(215, 215, 215, 0.391);
+    border: 2px solid rgba(209, 213, 219, 0.5);    
     border-radius: 8px;
     max-width: 85vw;
     text-align: left;
     /* font-family: 'Outfit', sans-serif; */
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: 'Outfit', sans-serif;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 10vw;
     padding-right: 10vw;
     margin-top: 30px;
     margin-bottom: 30px;
-    color: #ffe600;
+    color: #232323;
 }
+
 .title {
-    color: #ffe600;
-    font-family: 'Space Grotesk', sans-serif;
-    font-weight: 800;
+    color: #232323;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
     font-size: 4rem;
 }
 .AboutSection > p {
@@ -41,10 +42,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(3, 91, 255, 0.455), rgba(0, 2, 10, 0.307));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f1ea40",endColorstr="#e44071",GradientType=1);
-    backdrop-filter: blur( 9.5px );
-    -webkit-backdrop-filter: blur( 9.5px );
+    backdrop-filter: blur(13px) saturate(290%);
+    -webkit-backdrop-filter: blur(16px) saturate(230%);
+    background-color: rgba(215, 215, 215, 0.391);
+    border: 2px solid rgba(209, 213, 219, 0.5);   
     border-radius: 8px;
     width: 85vw;
     padding-top: 40px;

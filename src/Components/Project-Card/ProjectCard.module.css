@@ -1,10 +1,15 @@
 .ProjectCardMain {
     width: 24.5vw;
-    background: rgb(5,62,253);
+    /* background: rgb(5,62,253);
     background: -moz-linear-gradient(274deg, rgba(5,62,253,0.5907679966517857) 5%, rgba(159,53,255,0.6103758397890406) 100%);
     background: -webkit-linear-gradient(274deg, rgba(5,62,253,0.5907679966517857) 5%, rgba(159,53,255,0.6103758397890406) 100%);
     background: linear-gradient(274deg, rgba(5,62,253,0.5907679966517857) 5%, rgba(159,53,255,0.6103758397890406) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#053efd",endColorstr="#9f35ff",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#053efd",endColorstr="#9f35ff",GradientType=1); */
+    backdrop-filter: blur(13px) saturate(290%);
+    -webkit-backdrop-filter: blur(16px) saturate(290%);
+    background-color: #f3f3f3bd;
+    border: 1.5px solid rgba(143, 141, 141, 0.5);     
+    /* box-shadow: 0 2px 10px 0 rgba(62, 0, 38, 0.551); */
     /* margin: 20px; */
     padding: 10px;
     display: flex;
@@ -26,7 +31,7 @@
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 2rem;
-    color: #ffe600;
+    color: #232323;
 }
 .ProjectCardMain > div > p {
     margin-left: 35px;
@@ -35,7 +40,7 @@
     margin-bottom: 10px;    
     font-size: 1.1rem;
     text-align: left;
-    color: #ffe600;
+    color: #232323;
 }
 .projectPreview {
     /* Project Thumbnail Image */
@@ -43,6 +48,7 @@
     max-width: 20vw;
     margin: 10px;
     margin-top: 20px;
+    border: 1.5px solid rgba(61, 61, 61, 0.5);
     border-radius: 8px;
 }
 
