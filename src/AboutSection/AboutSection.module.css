@@ -74,7 +74,7 @@
     }
     .AboutSection > p {
         /* font-weight: 500; */
-        font-size: 0.85rem;
+        font-size: 0.97rem;
         margin-top: 10px;
         text-align: start;
     }
@@ -92,7 +92,7 @@
     }
     .AboutSection > p {
         /* font-weight: 500; */
-        font-size: 1.1rem;
+        font-size: 1.3rem;
     }
 
 }

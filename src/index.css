@@ -25,9 +25,9 @@
 
 /* Background styles */
 body {
-    background-color: #fdfde9;
+    background-color: #f8f8e8;
     background-image: 
-        radial-gradient(at 47% 33%, hsl(248, 85%, 95%) 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(337, 100%, 94%) 0, transparent 55%);
+        radial-gradient(at 47% 33%, hsl(247, 76%, 94%) 0, transparent 59%), 
+        radial-gradient(at 82% 65%, hsl(338, 84%, 90%) 0, transparent 55%);
 }
 
