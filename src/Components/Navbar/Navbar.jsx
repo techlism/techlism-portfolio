@@ -1,8 +1,8 @@
-import './Navbar.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// Important Don't remove 👇
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import 'jquery/dist/jquery.min.js';
+import './Navbar.css';
+import React from 'react';
 
 const Navbar = () => {
   return (

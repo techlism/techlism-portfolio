@@ -6,10 +6,10 @@
   font-family: 'Outfit',sans-serif;  
   border-radius: 8px;
   font-weight: 500;
-  padding-left: 45px;
+  padding-left: 15px;
   /* padding-right: 90px; */
-  padding-top:5px;
-  padding-bottom: 5px;
+  padding-top:8px;
+  padding-bottom: 8px;
   position: sticky;
   z-index: 2;
   top: 0;
@@ -17,13 +17,11 @@
   margin-top: 25px;
   margin-left: 7.5vw;
   margin-right: 7.5vw;
-
+  /* margin-bottom: 25px; */
 }
 @media only screen and (max-width: 450px) {
   #nav-bar{
-      padding:20px;
-      top:auto;
-      z-index: -1;
+    top: auto;
   }
 
 }
